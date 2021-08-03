@@ -5,4 +5,6 @@ while True:
 		break
 	price  = input("请输入产品价格：");
 	products.append([name,price]);
-print(products);
+
+for product in products:
+	print(products[0][0], '价格是', products[0][1]);
